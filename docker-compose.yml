@@ -14,7 +14,7 @@ services:
   app-timesheet:
     depends_on:
       - mysqldb
-    image: azyzkahloul/myimage
+    image: rafikelghali/myimage
     restart: on-failure
     ports:
       - 8082:8082
